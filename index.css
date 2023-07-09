@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* header section design start */
+
+/* navbar section design start */
+header{
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-size:55%,90px;
+    background-position: bottom right, center left;
+}
+.logo{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+.logo span{
+ color: #FD6E0A;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+ li,a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+/* navbar section design end*/
+
+/* banner section design start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 0px 180px;
+}
+.bannerInfo{
+    max-width: 500px;
+}
+.banner-intro{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.banner-description{
+color: #757575;
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.contact-btn{
+        border: 1px solid  #FD6E0A ;
+        background-color: #FFF8F3;
+        color: #FD6E0A;
+        font-size: 20px;
+        padding: 18px 35px;
+        border-radius: 5px;
+}
+.contact-btn:hover{
+    background-color: #FD6E0A ;
+    color: #FFF8F3;
+}
+/* banner section design end */
+
+/* header section design end */
+
+/* Main section design start */
+
+/* Main section design end */
+
