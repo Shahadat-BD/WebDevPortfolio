@@ -232,18 +232,20 @@ margin-top: 5px;
 
 /* footer section design start */
 .footer-section{
-    background-color: #FFF8F3;
-    height: 600px;
-}
-footer{
     max-width: 75%;
     margin: 0 auto;
 }
-.footer{
+
+footer{
+    background-color: #FFF8F3;
+}
+
+.footer-flex{
     display: flex;
     justify-content: space-between;
-    padding:80px 0px 30px 0px;
+    padding-top: 50px;
 }
+
 .contact{
     width: 550px;
 }
@@ -353,6 +355,28 @@ font-weight: 700;
             line-height: 25px;
         }
         /* Resume section design end */
+
+
+        .footer-section{
+            background-color: #FFF8F3;
+        }
+        
+        .footer-flex{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .contact{
+            width: 100%;
+        }
+        .contact-title{
+            font-size: 25px;
+        }
+        .input-title{
+        font-size: 25px;
+        margin-top: 25px;
+        }
+
+
 }
 /* medium device like tab desktop */
 
@@ -399,6 +423,6 @@ font-weight: 700;
     /* edu exp responsive end */
 
 
-    
+
 }
 
