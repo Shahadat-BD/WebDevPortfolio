@@ -211,7 +211,7 @@ margin: 60px 0px;
 color:#474747;
 font-size: 25px;
 font-weight: 700;
-margin-bottom: 0px;
+margin:15px 0px 0px 0px;
 }
 
 .edu-exp-year{
@@ -225,6 +225,7 @@ margin-top: 5px;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin: 10px 0px;
 }
 /* Resume section design end */
 /* Main section design end */
@@ -286,45 +287,73 @@ font-weight: 700;
 /* footer section design end */
 
 /* small device like mobile phone */
-@media screen and (max-width:576px){
-    main{
+@media screen and (max-width:576px) {
+
+    main {
         max-width: 90%;
         margin: 0 auto;
     }
-    .experience{
+
+    .experience {
         text-align: center;
         margin-top: 60px;
         padding: 10px;
     }
-    
-    .experience-info{
+
+    .experience-info {
         font-size: 15px;
         line-height: 20px;
-        text-align: justify; 
+        text-align: justify;
     }
-    .technology{
+
+    .technology {
         flex-direction: column;
     }
 
     /* about section */
-    .about{
+    .about {
         padding: 20px;
         margin-top: 40px;
         text-align: left;
     }
-    .about-info{
-       display: grid;
-       grid-template-columns: repeat(2,1fr);
-       row-gap: 12px;
+
+    .about-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 12px;
     }
-    .info span{
+
+    .info span {
         font-size: 10px;
     }
-    .info p{
+
+    .info p {
         font-size: 12px;
     }
+        .resume{
+            display: flex;
+            flex-direction: column;
+        }
+        .resumi-heading{
+            font-size: 20px;
+            }
+        .edu-exp h1{
+           color: #FD6E0A;
+        }
+        .edu-exp-title{
+        font-size: 20px;
+        }
+        
+        .edu-exp-year{
+        font-size: 16px;
+        margin-top: 1px;
+        }
+        .edu-exp-info{
+            font-size: 16px;
+            line-height: 25px;
+        }
+        /* Resume section design end */
 }
-
 /* medium device like tab desktop */
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -353,5 +382,23 @@ font-weight: 700;
     .info p{
         font-size: 16px;
     }
+    
+    /* edu exp responsive start */
+    .edu-exp-title{
+    font-size: 18px;
+    }
+    
+    .edu-exp-year{
+    font-size: 16px;
+    margin-top: 1px;
+    }
+    .edu-exp-info{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* edu exp responsive end */
+
+
+    
 }
 
