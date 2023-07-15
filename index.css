@@ -4,6 +4,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.hide{
+    display: none;
+}
 /* header section design start */
 
 /* navbar section design start */
@@ -134,7 +137,7 @@ color:#181818;
     color: #181818af;
     font-size: 20px;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 25px;
 }
  /* about me section design end */
 
@@ -148,6 +151,7 @@ color:#181818;
 color:#181818;
 font-size: 35px;
 font-weight: 700;
+margin-bottom: 10px;
 }
 .experience-info{
 color:#757575;
@@ -280,4 +284,71 @@ font-weight: 700;
     border-radius: 5px;
 }
 /* footer section design end */
+
+/* small device like mobile phone */
+@media screen and (max-width:576px){
+    main{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .experience{
+        text-align: center;
+        margin-top: 60px;
+        padding: 10px;
+    }
+    
+    .experience-info{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: justify; 
+    }
+    .technology{
+        flex-direction: column;
+    }
+
+    /* about section */
+    .about{
+        padding: 20px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .about-info{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 15px;
+    }
+    .info p{
+        font-size: 16px;
+    }
+}
+
+/* medium device like tab desktop */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    main{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .technology{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .about{
+        padding: 20px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .about-me{
+        font-size: 16px;
+    }
+    .about-info{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 15px;
+    }
+    .info p{
+        font-size: 16px;
+    }
+}
 
